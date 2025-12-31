@@ -118,7 +118,7 @@ cd quiz_frontend
 npm install
 npm run dev
 ```
- Environment Variables
+###Environment Variables
 
 Create a .env file inside quiz_backend and add:
 
