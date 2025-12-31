@@ -65,6 +65,7 @@ Database:
 ---
 
 ## 📁 Project Structure
+```
 interactive-quiz-app/
 │
 ├── quiz_backend/
@@ -101,31 +102,35 @@ interactive-quiz-app/
 ├── .gitignore
 ├── README.md
 └── LICENSE
+```
 
 ---
 
 ## How to Run the Project Locally
 
 Backend Setup:
+```
 cd quiz_backend
 npm install
 npm start
-
+```
 Frontend Setup:
+```
 cd quiz_frontend
 npm install
 npm run dev
+```
 
 ---
 
 ## Environment Variables
 
 Create a .env file inside quiz_backend and add:
-
+```
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-
+```
 Note: .env is ignored from GitHub for security reasons.
 
 ---
